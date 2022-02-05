@@ -1,0 +1,72 @@
+:root {
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --color-logo:#000000;
+  --main-color-text:#212121;
+  --second-color-text:#757575;
+
+}
+
+.body {
+  background-color: #ffffff;
+}
+/* Header styles */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo{
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color:var(--color-logo);
+}
+.second-color-logo{
+  color: var(--accent-color);
+}
+.active-page{
+  color: var(--accent-color);
+}
+
+.nav-list{
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color-text);
+}
+.nav-list:hover,
+.nav-list:focus{
+  color: var(--accent-color);
+}
+.nav-list.curent{
+  color: var(--accent-color);
+}
+.nav-contact{
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14
+  letter-spacing: 0.02em;
+  color: var(--second-color-text);
+}
+.nav-contact:hover,
+.nav-contact:focus{
+  color: var(--accent-color);
+
+}
+
+
+/* Main styles */
+class="nav-list"
+/* вторичный фон 1 */
+#2F303A
+/* второй вторичный фон */
+#F5F4FA
+

@@ -6,23 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>
+<body class="body">
     <header>
         <nav>
-            <a href="" lang="en"> <span>Web</span>Studio </a>
-            <ul>
-                <li> <a href="">Студия</a></li>
-                <li> <a href="./portfolio.html">Портфолио</a></li>
-                <li> <a href="">Контакты</a></li>
+            <a class="link logo" href="" lang="en"> <span class="second-color-logo">Web</span>Studio </a>
+            <ul class="list">
+                <li> <a class="link nav-list curent" href="">Студия</a></li>
+                <li> <a class="link nav-list" href="./portfolio.html">Портфолио</a></li>
+                <li> <a class="link nav-list" href="">Контакты</a></li>
             </ul>
         </nav>
 
-        <ul>
-            <li> <a href="mailto:info@devstudio.com">info@devstudio.com </a> </li>
-            <li> <a href="tel:+380961111111">+38 096 111 11 11 </a> </li>
+        <ul class="list">
+            <li> <a class="link nav-contact" href="mailto:info@devstudio.com">info@devstudio.com </a> </li>
+            <li> <a class="link nav-contact" href="tel:+380961111111">+38 096 111 11 11 </a> </li>
         </ul>
     </header>
 
@@ -34,7 +38,7 @@
         <section>
             <!-- Добавлю h2 - скрою потом его со стараницы, пока скрыт через атрибут hidden -->
             <h2 hidden>Наши отличия от других</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>Внимание к деталям </h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -55,7 +59,7 @@
         </section>
         <section>
             <h2>Чем мы занимаемся</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/box1jpeg.jpg" alt="набор HTML кода" width="370" height="294" />
                 </li>
@@ -70,7 +74,7 @@
         </section>
         <section>
             <h2>Наша команда</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/member1.jpg" alt="фото Игоря Демьяненко" width="270" height="260" />
                     <h3>Игорь Демьяненко</h3>
@@ -100,9 +104,9 @@
     <footer>
         <a href="" lang="en"> <span>Web</span>Studio </a>
         <address>
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="https://goo.gl/maps/2wUC2h2pFyBtwkor7" target="blank" rel="noopener noreferrer">Киев, пр-т
+                    <a class="link" href="https://goo.gl/maps/2wUC2h2pFyBtwkor7" target="blank" rel="noopener noreferrer">Киев, пр-т
                         Леси Украинки, 26</a>
                 </li>
                 <li>
@@ -117,7 +121,4 @@
 
 
 </body>
-
-
-
 </html>
