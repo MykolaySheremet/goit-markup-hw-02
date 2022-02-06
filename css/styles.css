@@ -77,7 +77,7 @@
   text-transform: uppercase;
   color: var(--third-color-text);
 }
-.button{
+.main-button{
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -85,11 +85,12 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   color:var(--third-color-text);
   background-color: var(--accent-color);
 }
-.button:hover,
-.button:focus{
+.main-button:hover,
+.main-button:focus{
   background-color:#188CE8;
 }
 
@@ -166,4 +167,37 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+/* Styles Porfolio */
+
+.button-port{
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  cursor: pointer;
+  color: var(--main-color-text);
+  background-color: var(--third-background-color);
+}
+.button-port:hover,
+.button-port:focus{
+  color: var(--third-color-text);
+  background-color: var(--accent-color);
+}
+.second-header-port{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color-text)
+}
+.desc-port{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--second-color-text);
 }
