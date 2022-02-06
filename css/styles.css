@@ -1,15 +1,18 @@
 :root {
-  --primary-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --color-logo:#000000;
   --main-color-text:#212121;
   --second-color-text:#757575;
+  --third-color-text:#ffffff;
+  --second-background-color:#2F303A;
+  --third-background-color:#F5F4FA;
 
 }
 
 .body {
   background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 /* Header styles */
 .list {
@@ -20,11 +23,11 @@
 }
 .logo{
   font-family: var(--secondary-font-family);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color:var(--color-logo);
+  color: var(--color-logo);
 }
 .second-color-logo{
   color: var(--accent-color);
@@ -34,7 +37,6 @@
 }
 
 .nav-list{
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -49,7 +51,6 @@
   color: var(--accent-color);
 }
 .nav-contact{
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14
@@ -59,14 +60,82 @@
 .nav-contact:hover,
 .nav-contact:focus{
   color: var(--accent-color);
-
 }
 
-
 /* Main styles */
-class="nav-list"
-/* вторичный фон 1 */
-#2F303A
-/* второй вторичный фон */
-#F5F4FA
+.hero-section{
+  background-color: var(--second-background-color);
+}
+.main-header{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-color-text);
+}
+.button{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color:var(--third-color-text);
+  background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus{
+  background-color:#188CE8;
+}
 
+.trird-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color-text);
+}
+
+.desc-advantage{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-color-text)
+}
+.second-header{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color-text);
+}
+.our-team{
+  background-color: var(--third-background-color);
+}
+.team{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color-text)
+}
+
+.team-profesion{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:var(--second-color-text);
+}
+.card-member{
+  background-color: #ffffff;
+}
+/* footer styles */
