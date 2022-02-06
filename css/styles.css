@@ -29,6 +29,8 @@
   letter-spacing: 0.03em;
   color: var(--color-logo);
 }
+
+
 .second-color-logo{
   color: var(--accent-color);
 }
@@ -139,3 +141,29 @@
   background-color: #ffffff;
 }
 /* footer styles */
+.footer{
+  background-color: var(--second-background-color);
+}
+.nav-contact-foot{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.addressfoot{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-color-text);
+}
+.logo-foot{
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
