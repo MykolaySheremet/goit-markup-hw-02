@@ -161,6 +161,14 @@
   letter-spacing: 0.03em;
   color: var(--third-color-text);
 }
+.addressfoot:hover,
+.addressfoot:focus,
+.nav-contact-foot:hover,
+.nav-contact-foot:focus{
+  color: var(--accent-color);
+}
+
+
 .logo-foot{
   font-family: var(--secondary-font-family);
   font-weight: 700;
